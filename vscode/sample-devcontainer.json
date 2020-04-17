@@ -1,0 +1,29 @@
+/* Contents of {repository-root}/.devcontainer/devcontainer.json */
+
+{
+  // Open port 3000 by default
+  "appPort": 3000,
+
+  // Install extensions
+  "extensions": [
+    "ms-vscode.azure-account",
+    "ms-azuretools.vscode-apimanagement",
+    "dotiful.dotfiles-syntax-highlighting",
+    "github.vscode-pull-request-github",
+    "thomaspink.theme-github",
+    "pkief.material-icon-theme",
+    "42crunch.vscode-openapi",
+    "humao.rest-client",
+    "visualstudioexptteam.vscodeintellicode",
+    "redhat.vscode-yaml"
+    
+  ],
+
+  // Set theme to github
+  "settings": {
+  //  "peacockmoteColor": "#0078D7"
+  },
+
+  // Run Bash script in .devcontainer directory
+  // "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
+}

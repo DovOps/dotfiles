@@ -21,7 +21,8 @@
 
   // Set theme to github
   "settings": {
-  //  "peacockmoteColor": "#0078D7"
+     "workbench.colorTheme": "Github",
+    "workbench.iconTheme": "material-icon-theme"
   },
 
   // Run Bash script in .devcontainer directory

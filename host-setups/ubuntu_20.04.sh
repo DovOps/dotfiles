@@ -25,12 +25,25 @@ sudo apt-get  install -y gradle curl git  openjdk-17-jre-headless
 
 curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs
-
+nvm install --lts
+nvm use --lts
 
 
 
 #install code-server
 wget -O- https://aka.ms/install-vscode-server/setup.sh | sh
+
+#install code-insiders code cli tunnel
+
+# for pre 20.x ubuntu
+sudo apt update
+sudo apt install snapd
+
+# install code-insiders
+sudo snap install code-insiders --classic
+
+# option to run code-insiders
+code-insiders tunnel --accept-server-license-terms
 
 
 
